@@ -1,0 +1,80 @@
+    1  sudo apt update
+    2  sudo apt upgrade -y
+    3  sudo apt remove -y
+    4  hostname
+    5  sudo vi /etc/hostname
+    6  sudo apt update
+    7  sudo apt upgrade -y
+    8  sudo apt -y upgrade
+    9  chomd +x ~/Downloads/ubuntu_install.sh 
+   10  chmod +x ~/Downloads/ubuntu_install.sh 
+   11  ~/Downloads/ubuntu_install.sh 
+   12  cd /Down
+   13  mkdir ~/Downloads
+   14  cf --help
+   15  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   16  cf login --help
+   17  cf login
+   18  cf target
+   19  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   20  cf push -help
+   21  gradle assemble
+   22  tree build
+   23  cf apps
+   24  cf target
+   25  cf push pal-tracker -p build/libs/pal-tracker.jar
+   26  cf push pal-tracker -p build/libs/pal-tracker.jar --hostname ssalla-tracker
+   27  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   28  cf push pal-tracker -p build/libs/pal-tracker.jar --hostname ssalla-tracker
+   29  cf open pal-tracker
+   30  cf apps
+   31  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://ssalla-tracker.apps.evans.pal.pivotal.io
+   32  cd ../pal-tracker/
+   33  ll
+   34  cd ../assignment-submission/
+   35  ll
+   36  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://ssalla-tracker.apps.evans.pal.pivotal.io
+   37  cd ..
+   38  ls
+   39  cd pal-tracker/
+   40  ./gradlew clean compileTestJava
+   41  git status
+   42  git add .
+   43  git status
+   44  ./gradlew clean compileTestJava
+   45  git status
+   46  git add -A
+   47  git status
+   48  git commit -m "Created a resful controller that lets you do stuff with time entries"
+   49  git status
+   50  git push -u origin
+   51  git status
+   52  git checkout -b "test-branch"
+   53  git status
+   54  git add .
+   55  git status
+   56  git commit -m "Commit to branch"
+   57  git status
+   58  git checkout master
+   59  git status
+   60  git checkout test-branch
+   61  git status
+   62  git merge master
+   63  git status
+   64  checkout master
+   65  git checkout master
+   66  git merge test-branch
+   67  git push -u origin
+   68  git status
+   69  git checkout test-branch
+   70  git checkout master
+   71  git fetch
+   72  git pull
+   73  git status
+   74  git merge test-branch
+   75  git checkout -b "test-pull-request"
+   76  git status
+   77  git add .
+   78  git commit -m "ima change"
+   79  git push -u origin test-pull-request
+   80  history
