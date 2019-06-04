@@ -1,0 +1,154 @@
+pal_user@magazine:~/workspace/assignment-submission$ history
+    1  sudo apt update
+    2  sudo apt upgrade -y
+    3  sudo apt remove -y
+    4  hostname
+    5  sudo vi /etc/hostname
+    6  sudo apt update
+    7  sudo apt upgrade -y
+    8  sudo apt -y upgrade
+    9  chomd +x ~/Downloads/ubuntu_install.sh 
+   10  chmod +x ~/Downloads/ubuntu_install.sh 
+   11  ~/Downloads/ubuntu_install.sh 
+   12  cd /Down
+   13  mkdir ~/Downloads
+   14  mkdir -p ~/workspace/assignment-submission
+   15  cd ~/workspace/assignment-submission
+   16  ll
+   17  gradle wrapper
+   18  touch build.gradle
+   19  ll
+   20  pwd
+   21  ./gradlew tasks
+   22  ./gradlew testAssignment
+   23  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+   24  ll
+   25  tree
+   26  sudo apt  install tree
+   27  tree
+   28  gradle --version
+   29  vi gradlew
+   30  cd
+   31  ll
+   32  cd workspace/
+   33  ll
+   34  git log --graph --decorate --oneline --all
+   35  cd pal-tracker/
+   36  git log --graph --decorate --oneline --all
+   37  git remote add origin https://github.com/user/repo.git
+   38  git remote -v
+   39  git push origin master --tags
+   40  git remote -v
+   41  git remote remove origin
+   42  git remote -v
+   43  git remote add https://github.com/senucnu/pal-tracker.git
+   44  git remote add origin https://github.com/senucnu/pal-tracker.git
+   45  git push origin master --tags
+   46  git remote add origin https://github.com/senucnu/pal-tracker.git
+   47  git push origin master --tags
+   48  git pull -r origin master
+   49  git config --global user.email "senucnu@gmail.com"
+   50  git config --global user.name "Sreenu S"
+   51  git pull -r origin master
+   52  git push origin master --tags
+   53* git push origin master --tags --force 
+   54  git pull -r origin master
+   55  git status
+   56  git tag
+   57  ls -al
+   58  git checkout master
+   59  touch build.gradle
+   60  ll
+   61  gradle wrapper
+   62  ll
+   63  cf push -p
+   64  cf push -p pal-tracker
+   65  cf target
+   66  ll
+   67  gradlew build
+   68  gradle build
+   69  ll
+   70  cf push -p pal-tracker
+   71  cf push pal-tracker
+   72  cf push pal-tracker -p build/libs/
+   73  cd  ~/workspace/assignment-submission
+   74  echo APP_URL
+   75  echo $APP_URL
+   76  ll
+   77  vi build.gradle 
+   78  cat build.gradle
+   79  export
+   80  cd ..
+   81  cd pal-tracker/
+   82  git cherry-pick deployment-start
+   83  git status
+   84  git add 
+   85  git status
+   86  git add .
+   87  git status
+   88  git commit
+   89  git status
+   90  git push 
+   91  git push -u origin master
+   92  git status
+   93  git cherry-pick deployment-start
+   94  ./gradlew bootRun
+   95  gradle clean
+   96  ./gradlew clean
+   97  cf push package io.pivotal.pal.tracker;
+   98  cf push pal-tracker -p build/libs/pal-tracker.jar --hostname ssalla-tracker
+   99  cf logs pal-tracker --recent
+  100  cf restage pal-tracker
+  101  cf delete pal-tracker
+  102  cf help | grep domain
+  103  cf domains
+  104  cf help | grep check
+  105  cf help | grep route
+  106  cf push pal-tracker
+  107  cf domain
+  108  cf apps
+  109  cd ~/workspace/assignment-submission
+  110  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker-wacky-panda.apps.evans.pal.pivotal.io
+  111  cd ..
+  112  ls
+  113  cd pal-tracker/
+  114  git cherry-pick pipeline-start 
+  115  ls
+  116  git status
+  117  git add -A
+  118  git commit -m "Made changes"
+  119  git push -u origin
+  120  git cherry-pick pipeline-start 
+  121  git status
+  122  cf check-route pal-tracker-cnickert cfapps.io
+  123  cf check-route pal-tracker-cnickert api.sys.evans.pal.pivotal.io
+  124  cf check-route pal-tracker-cnickert apps.sys.evans.pal.pivotal.io
+  125  cf check-route pal-tracker-cnickert apps.evans.pal.pivotal.io
+  126  cf map-route pal-tracker apps.evans.pal.pivotal.io --hostname pal-tracker-cnickert
+  127  git status
+  128  git add .
+  129  git commit -m "Updated some things in the manifest"
+  130  git push -u origin
+  131  ll
+  132  vi build.gradle 
+  133  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-cnickert.apps.evans.pal.pivotal.io
+  134  cd ..
+  135  ls
+  136  cd pal-tracker/
+  137  ls
+  138  git add .
+  139  git commit -m "Whoops spelling mistake"
+  140  git push -u origin
+  141  cd ~/workspace/assignment-submission
+  142  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-cnickert.apps.evans.pal.pivotal.io
+  143  git status
+  144  ls
+  145  cd ..
+  146  ls
+  147  cd pal-tracker/
+  148  git cherry-pick mvc-start
+  149  git status
+  150  cd ~/workspace/assignment-submission
+  151  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-cnickert.apps.evans.pal.pivotal.io/
+  152  commands
+  153  history
